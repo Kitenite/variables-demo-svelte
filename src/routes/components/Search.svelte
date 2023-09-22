@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '../components/Button.svelte';
 	let type = 'TYPE1';
+	import { ColorsExample, SpacingExample } from '../../figma-tokens';
 </script>
 
 <div class={`font-inter font-[700] rounded-xl text-black text-left ${$$restProps.class}`}>

@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div
-			class={`[box-shadow:0px_0px_0px_4px_black_inset] [box-shadow-width:4px] w-[836px] drop-shadow-lg bg-[#699BF7] gap-2 flex flex-col items-start rounded-lg p-6`}
+			class={`[box-shadow:0px_0px_0px_4px_black_inset] [box-shadow-width:4px] w-[836px] drop-shadow-lg bg-[${ColorsExample.Light.COLOR_ACCENT}] gap-2 flex flex-col items-start rounded-lg p-6`}
 		>
 			<Search class={`w-full`} />
 		</div>

@@ -21,6 +21,6 @@
 			type === 'TYPE' ? 'button-label-1-type' : ''
 		} ${type === 'TYPE1' ? 'w-[55px]' : ''} ${type === 'TYPE' ? 'w-[88px]' : ''}`}
 	>
-		{`text`}
+		{text}
 	</p>
 </div>
