@@ -2,8 +2,8 @@ export class Tokens {
     static Mode1 = class {
         static Color = class  {
             public static readonly BUTTON_LABEL_PRIMARY = '#000000';
-            public static readonly COLOR_VIOLET = '#c7b9ff';
-            public static readonly BUTTON_BACKGROUND_PRIMARY = '#c7b9ff';
+            public static readonly COLOR_VIOLET = '#C7B9FF';
+            public static readonly BUTTON_BACKGROUND_PRIMARY = '#C7B9FF';
             public static readonly COLOR_BLACK = '#000000';
             public static readonly BUTTON_OUTLINE_PRIMARY = '#000000';
         }
@@ -18,42 +18,42 @@ export class ColorsExample {
     static Light = class {
         public static readonly COLOR_BORDER_PRIMARY = '#000000';
         static Input = class  {
-            public static readonly SELECTED = '#ff8577';
+            public static readonly SELECTED = '#FF8577';
             public static readonly FOREGROUND_COLOR = '#000000';
             public static readonly BORDER_COLOR = '#000000';
-            public static readonly BACKGROUND_COLOR = '#ffffff';
+            public static readonly BACKGROUND_COLOR = '#FFFFFF';
         }
-        public static readonly COLOR_SURFACE = '#ffffff';
-        public static readonly COLOR_ACCENT = '#699bf7';
+        public static readonly COLOR_SURFACE = '#FFFFFF';
+        public static readonly COLOR_ACCENT = '#699BF7';
         static Button = class  {
             public static readonly FOREGROUND_PRIMARY = '#000000';
             public static readonly BORDER_PRIMARY = '#000000';
-            public static readonly BACKGROUND_PRIMARY = '#c7b9ff';
+            public static readonly BACKGROUND_PRIMARY = '#C7B9FF';
         }
         public static readonly COLOR_TEXT_PRIMARY = '#000000';
-        public static readonly COLOR_SURFACE_FAINT = '#fafafa';
-        public static readonly COLOR_BRAND = '#c7b9ff';
-        public static readonly COLOR_FEATURE = '#ff8577';
+        public static readonly COLOR_SURFACE_FAINT = '#FAFAFA';
+        public static readonly COLOR_BRAND = '#C7B9FF';
+        public static readonly COLOR_FEATURE = '#FF8577';
     }
     static Dark = class {
         public static readonly COLOR_BORDER_PRIMARY = '#757575';
         static Input = class  {
-            public static readonly SELECTED = '#ff8577';
-            public static readonly FOREGROUND_COLOR = '#ffffff';
+            public static readonly SELECTED = '#FF8577';
+            public static readonly FOREGROUND_COLOR = '#FFFFFF';
             public static readonly BORDER_COLOR = '#757575';
             public static readonly BACKGROUND_COLOR = '#000000';
         }
         public static readonly COLOR_SURFACE = '#000000';
-        public static readonly COLOR_ACCENT = '#699bf7';
+        public static readonly COLOR_ACCENT = '#699BF7';
         static Button = class  {
-            public static readonly FOREGROUND_PRIMARY = '#ffffff';
-            public static readonly BORDER_PRIMARY = '#8061ff';
-            public static readonly BACKGROUND_PRIMARY = '#8061ff';
+            public static readonly FOREGROUND_PRIMARY = '#FFFFFF';
+            public static readonly BORDER_PRIMARY = '#8061FF';
+            public static readonly BACKGROUND_PRIMARY = '#8061FF';
         }
-        public static readonly COLOR_TEXT_PRIMARY = '#ffffff';
-        public static readonly COLOR_SURFACE_FAINT = '#2a2a2a';
-        public static readonly COLOR_BRAND = '#8061ff';
-        public static readonly COLOR_FEATURE = '#ff8577';
+        public static readonly COLOR_TEXT_PRIMARY = '#FFFFFF';
+        public static readonly COLOR_SURFACE_FAINT = '#2A2A2A';
+        public static readonly COLOR_BRAND = '#8061FF';
+        public static readonly COLOR_FEATURE = '#FF8577';
     }
 }
 export class TextExample {
@@ -93,24 +93,24 @@ export class SpacingExample {
 export class Themes {
     static Light = class {
         public static readonly COLOR_BORDER_PRIMARY = '#000000';
-        public static readonly COLOR_SURFACE = '#ffffff';
+        public static readonly COLOR_SURFACE = '#FFFFFF';
         static Button = class  {
             public static readonly FOREGROUND_PRIMARY = '#000000';
             public static readonly BORDER_PRIMARY = '#000000';
-            public static readonly BACKGROUND_PRIMARY = '#c7b9ff';
+            public static readonly BACKGROUND_PRIMARY = '#C7B9FF';
         }
         public static readonly COLOR_TEXT_PRIMARY = '#000000';
-        public static readonly COLOR_BRAND = '#c7b9ff';
+        public static readonly COLOR_BRAND = '#C7B9FF';
     }
     static Dark = class {
         public static readonly COLOR_BORDER_PRIMARY = '#757575';
         public static readonly COLOR_SURFACE = '#000000';
         static Button = class  {
-            public static readonly FOREGROUND_PRIMARY = '#ffffff';
+            public static readonly FOREGROUND_PRIMARY = '#FFFFFF';
             public static readonly BORDER_PRIMARY = '#757575';
-            public static readonly BACKGROUND_PRIMARY = '#8061ff';
+            public static readonly BACKGROUND_PRIMARY = '#8061FF';
         }
-        public static readonly COLOR_TEXT_PRIMARY = '#ffffff';
-        public static readonly COLOR_BRAND = '#8061ff';
+        public static readonly COLOR_TEXT_PRIMARY = '#FFFFFF';
+        public static readonly COLOR_BRAND = '#8061FF';
     }
 }
