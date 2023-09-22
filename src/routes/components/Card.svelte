@@ -3,6 +3,7 @@
 	import Button from '../components/Button.svelte';
 	import Favorite from '../assets/Favorite.svelte';
 	import FavoriteFilled from '../assets/FavoriteFilled.svelte';
+	import { ColorsExample, SpacingExample } from '../../figma-tokens';
 </script>
 
 <div
@@ -23,11 +24,7 @@
 				<p class={`w-[79px] text-sm leading-6`}>New Jersey</p>
 			</div>
 		</div>{/if}
-	{#if type === 'TYPE2'}<Button
-			class={`${type === 'TYPE1' ? 'h-[null]' : ''} ${type === 'TYPE' ? 'w-full' : ''}`}
-			type="TYPE"
-			text="Add to cart"
-		/>{/if}
+	{#if type === 'TYPE2'}<Button class={`h-[null] w-full`} type="TYPE" text="Add to cart" />{/if}
 	{#if type === 'TYPE2'}<div
 			class={`[box-shadow:0px_0px_0px_1px_black_inset] [box-shadow-width:1px] rounded-[360px] w-8 h-8 bg-white flex justify-center items-center p-2`}
 		>
@@ -48,11 +45,7 @@
 				<p class={`w-[95px] text-sm leading-6`}>San Francisco</p>
 			</div>
 		</div>{/if}
-	{#if type === 'TYPE'}<Button
-			class={`${type === 'TYPE1' ? 'h-[null]' : ''} ${type === 'TYPE' ? 'w-full' : ''}`}
-			type="TYPE"
-			text="Add to cart"
-		/>{/if}
+	{#if type === 'TYPE'}<Button class={`h-[null] w-full`} type="TYPE" text="Add to cart" />{/if}
 	{#if type === 'TYPE'}<div
 			class={`[box-shadow:0px_0px_0px_1px_black_inset] [box-shadow-width:1px] rounded-[360px] w-8 h-8 bg-white flex justify-center items-center p-2`}
 		>
@@ -73,26 +66,10 @@
 				<p class={`text-sm leading-6 w-16`}>New York</p>
 			</div>
 		</div>{/if}
-	{#if type === 'TYPE1'}<Button
-			class={`${type === 'TYPE1' ? 'h-[null]' : ''} ${type === 'TYPE' ? 'w-full' : ''}`}
-			type="TYPE"
-			text="Add to cart"
-		/>{/if}
+	{#if type === 'TYPE1'}<Button class={`h-[null] w-full`} type="TYPE" text="Add to cart" />{/if}
 	{#if type === 'TYPE1'}<div
 			class={`[box-shadow:0px_0px_0px_1px_black_inset] [box-shadow-width:1px] rounded-[360px] w-8 h-8 bg-white flex justify-center items-center p-2`}
 		>
 			<Favorite class={`w-4 h-4`} />
 		</div>{/if}
 </div>
-
-<!--
-  This component was generated from Figma with FireJet. 
-  Learn more at https://www.firejet.io
-  
-  README:
-  The output code may look slightly different when copied to your codebase. To fix this:
-  1. Include the necessary fonts. The required fonts are imported from index.html
-  2. Include the global styles. They can be found in styles.css
-  
-  Note: Step 2 is not required for tailwind.css output
--->
