@@ -24,15 +24,15 @@ export class ColorsExample {
             public static readonly BACKGROUND_COLOR = '#FFFFFF';
         }
         public static readonly COLOR_SURFACE = '#FFFFFF';
-        public static readonly COLOR_ACCENT = '#699BF7';
+        public static readonly COLOR_ACCENT = '#9747FF';
         static Button = class  {
             public static readonly FOREGROUND_PRIMARY = '#000000';
             public static readonly BORDER_PRIMARY = '#000000';
-            public static readonly BACKGROUND_PRIMARY = '#C7B9FF';
+            public static readonly BACKGROUND_PRIMARY = '#FF0761';
         }
         public static readonly COLOR_TEXT_PRIMARY = '#000000';
         public static readonly COLOR_SURFACE_FAINT = '#FAFAFA';
-        public static readonly COLOR_BRAND = '#C7B9FF';
+        public static readonly COLOR_BRAND = '#FF0761';
         public static readonly COLOR_FEATURE = '#FF8577';
     }
     static Dark = class {
